@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1200px){
+    .constructor{
+        width: 350px;
+    }
+    .name {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .profile{
+        width: 70px !important;
+    }
+    .staffname{
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .stafffaculty{
+        font-size: 13px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .constructor{
+        width: 500px;
+        float: right;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .constructor{
+        width: 690px;
+        float: right;
+    }
+    .faculty{
+        font-size: 18px !important;
+        line-height: 35px !important;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 768px){
+    
+    .painter{
+        width: 400px;
+    }
+    .faculty{
+        font-size: 15px;
+        line-height: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .text1{
+        padding-top: 5px;
+        margin-top: 0px;
+    }
+    .title{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .socialicons{
+        width: 25px;
+    }
+}
+@media only screen and (min-width: 1000px){
+    .socialicons{
+        width: 30px;
+    }
+}
+@media only screen and (max-width: 598px){
+    .construction, .text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width: 15px;
+        background-color: #f7d021 !important;
+        margin: 3px !important;
+        border-radius: 20px;
+    }
+    .sections{
+        margin-top: auto !important;
+        margin-bottom: auto !important;
+    }
+    .sections:hover{
+        padding: 2px;
+        padding-left: 7px !important;
+        padding-right: 7px !important;
+      }
+    .footersocialicons, .contactwithicons{
+        width: 20px;
+        height: 20px;
+    }
+    .rights{
+        font-size: 12px;
+    }
+    .mediaadress{
+        font-size: 16px;
+    }
+    .weirdfooter{
+        margin-bottom: 30px;
+    }
+    .sections{
+        font-size: 11px !important;
+    }
+    .logotext{
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 11px !important;
+    }
+    .button-34 {
+        margin-top: 4px;
+        padding: 5px;
+    }
+    .header{
+        padding-top: 0px !important;
+    }
+    .socialicons{
+        width: 30px;
+    }
+    .logo{
+        padding-top: 5px;
+        width: 70px;
+    }
+    .button-34{
+        padding: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .construction{
+        display: flex;
+        justify-content: center;
+    }
+    .bodyone{
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .constructor{
+        width: 300px;
+    }
+
+    .quota{
+        font-size: 16px;
+    }
+    .painter{
+        display: none;
+    }
+    .aboutelement{
+        flex: none;
+    }
+    .faculty{
+        max-width: fit-content;
+        word-break: normal;
+        word-wrap: break-word;
+        font-size: 14px;
+    }
+    .displaynone{
+        width: 100%;
+    }
+    .response{
+        font-size: 30px;
+    }
+    .icons{
+        width: 30px;
+    }
+    .field{
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .mobileres{
+        padding: 0;
+        margin: 0;
+    }
+    .card{
+        min-width: 150px;
+    }
+}

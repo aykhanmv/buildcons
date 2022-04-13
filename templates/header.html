@@ -1,0 +1,23 @@
+{% load static %}
+<header>
+    <div class="container-fluid header">
+            <div class="col">
+                <a href="{% url 'home' %}">
+                    <img class="logo" src="{% static '/images/icons/logo3.png' %}" alt="">
+                </a>
+            </div>
+            <div class="col headermid">
+                <div class="col sectionsdiv">
+                    <a class="sections" href="{% url 'home' %}">Servislər</a>
+                </div>
+                <div class="col sectionsdiv">
+                    <a class="sections" href="{% url 'about' %}">Haqqında</a>
+                </div>
+            </div>
+            <div class="col headerbutton">
+                <a href="{% url 'contact' %}">
+                    <button class="button-34" role="button"><p class="logotext">Əlaqə</p></button>
+                </a>
+            </div>
+    </div>
+</header>
