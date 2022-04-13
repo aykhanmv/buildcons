@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+    <div class="container-fluid subbodyone">
+        <div class="col construction">
+            <img class="constructor constructorw" src="{% static 'images/pictures/renovationpic.png' %}">
+        </div>
+        <div class="col text">
+            <div class="container">
+                <div class="namediv">
+                    <h1 class="name">
+                        Təmir və xidmət
+                    </h1>
+                </div>
+                <div id="quota">
+                    <h1 class="quota">
+                        Designers craft spaces that anticipate our needs and appeal to our emotions while pulling from a broad set of skills and technical knowledge. Interior design has changed dramatically since the early 20th century when it was just beginning to emerge as a profession.
+                Interior designers are expected to have working knowledge of:
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="container-fluid title titlediv">
+            <h1 class="title11">
+                Indiyədək görülmüş işlərdən:
+            </h1>
+        </div>
+    </div>
+    <div class="col pictures">
+        <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static '/images/pictures/inter1.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter2.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter3.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter4.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter5.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+{% endblock content %}

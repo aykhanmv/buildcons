@@ -1,0 +1,168 @@
+@media only screen and (max-width: 768px){
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        width: 15px;
+        background-color: #f7d021 !important;
+        margin: 3px !important;
+        border-radius: 20px;
+    }
+    #linebuttom{
+        width: 15px;
+        background-color: #F7CE21 !important;
+    }
+    .subbodyone{
+        padding-bottom: 0px;
+        padding-top: 10px;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* .name{
+        font-size: 16px !important;
+    } */
+    .constructor{
+        width: 300px !important;
+    }
+    .textleft{
+        text-align: left !important;
+    }
+    .title11{
+        font-size: 16px !important;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+    .pictures{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .foundertitle{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .title11{
+        padding-bottom: 30px;
+    }
+    .founder{
+        margin-top: 20px;
+        width: 250px;
+    }
+    .readmoreone{
+        text-align: center;
+        display: block;
+    }
+    .wirdfounder{
+        display: none;
+    }
+    .weirdtitleone{
+        padding-bottom: 20px;
+    }
+    .forumelement{
+        width: 100%;
+    }
+    .forumelementweird{
+        width: 64%;
+    }
+}
+@media only screen and (max-width: 598px){
+    .construction, .text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 695px){
+    .subbodyone{
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+    .constructor{
+        width: 500px;
+        float: right;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .constructor{
+        width: 690px;
+        float: right;
+    }
+}
+@media only screen and (max-width: 598px){
+    .construction, .text{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .name {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .wirdfounder1{
+        display: none;
+    }
+    .readmoreone{
+        padding-top: 20px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .foundertitle{
+        padding-bottom: 20px !important;
+    }
+}
+@media only screen and (max-width: 400px){
+    .contacter{
+        width: 100%;
+      }
+}
+@media only screen and (max-width: 790px) and (min-width: 400px){
+    .contacter{
+        width: 70%;
+      }
+}
+@media only screen and (min-width: 768px){
+    .contacter{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .contactinfodivweird{
+        padding: 10px;
+
+    }
+    #gmap_canvas{
+        height: 195px;
+        width: 330px;
+    }
+    .gmap_canvas{
+        text-align: center;
+    }
+    .icon2{
+        width: 30px;
+    }
+    .infotitle1{
+        font-size: 18px;
+    }
+    .infotext1{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 520px){
+    .namediv{
+        margin-left: 0px;
+    }
+    .quota {
+        margin-left: 0px;
+    }
+}

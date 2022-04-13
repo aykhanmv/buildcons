@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="container-fluid contacter">
+<!-- https://plumsail.com/    -->
+    <div class="container-fluid title titlediv1">
+        <h1>
+            Müraciət edin
+        </h1>
+    </div>
+    <script type="text/javascript" src="https://forms.plumsail.com/widget/1.0.8/app.js"></script>
+    <div id="plumsail-form-1z10"><div class="fd-form-loading"></div></div>
+    <script type="text/javascript">
+        var fd = new Plumsail.Form("#plumsail-form-1z10", "86ccb55e-2e2f-468a-bf7c-73457d283228")
+    </script>
+</div>
+
+
+<div class="container-fluid mapandcontactinfo">
+    <div class="col contactinfodiv contactinfodivweird">
+        <h1 class="maptitle">
+            Bizi xəritədə tapın:
+        </h1>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Baku,%20flma%20towers&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+    </div>
+
+    <div class="col infoback">
+        <div class="container detaildinfodiv">
+            <div>
+                <div class="contactsubinfo">
+                    <img class="icon2" src="../images/icons/map.png" alt="">
+                    <h1 class="infotitle1">Ünvan</h1>
+                    <p class="infotext1">
+                        Azerbaijan, Baku, Flame Towers
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class=" contactsubinfo">
+                    <img class="icon2" src="../images/icons/work.png" alt="">
+                    <h1 class="infotitle1">İş saatları</h1>
+                    <p class="infotext1">
+                        Həftə içi 10:00-22:00
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container detaildinfodiv infodicweird">
+            <div>
+                <div class=" contactsubinfo">
+                    <img class="icon2" src="../images/icons/customer-service.png" alt="">
+                    <h1 class="infotitle1">Telefon</h1>
+                    <p class="infotext1">
+                        +994 23 242 32 23
+                    </p>
+                    <p class="infotext1">
+                        +994 23 234 23 34
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class=" contactsubinfo">
+                    <img class="icon2" src="../images/icons/mail.png" alt="">
+                    <h1 class="infotitle1">Mail</h1>
+                    <p class="infotext1">
+                        info@build..az
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %}

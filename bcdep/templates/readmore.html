@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<div class="container-fluid readmoreone readmore1">
+    <div class="col founderdiv wirdfounder">
+        <img class="founder" src="{% static '/images/staff/istockphoto-1195228576-612x612.jpg' %}" alt="">
+    </div>
+    <div class="col ">
+        <h1 class="title foundertitle">
+            Şirkətin quruluşu
+        </h1>
+        <p class="text textleft">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+        </p>
+    </div>
+    <div class="col founderdiv wirdfounder1">
+        <img class="founder" src="{% static '/images/staff/istockphoto-1195228576-612x612.jpg' %}" alt="">
+    </div>
+<col>
+</div>
+<div class="container-fluid readmoreone readmore2">
+    <div class="col ">
+        <h1 class="title foundertitle" >
+            Şirkətin inkişafı
+        </h1>
+        <p class="text textleft">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+        </p>
+    </div>
+    <div class="col founderdiv">
+        <img class="founder" src="{% static '/images/pictures/constructor.png' %}" alt="">
+    </div>
+<col>
+</div>
+<div class="container-fluid">
+    <div class="col">
+        <div class="container-fluid readmorediv1">
+            <h1 class="title weirdtitleone">
+            İndiyədək görülmüş işlərdən:
+            </h1>
+        </div>
+    </div>
+    <div class="col pictures">
+        <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button id="linebuttom" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static '/images/pictures/inter1.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter2.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter3.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter4.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static '/images/pictures/inter5.jpg' %}" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+</div>
+</div>
+{% endblock content %}
